@@ -1,6 +1,6 @@
 {
   "name": "aws-processors",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/rubenhak/nodejs-aws-processors#readme",
   "dependencies": {
-    "aws-sdk": "^2.242.1",
-    "the-lodash": "^1.0.3",
-    "the-promise": "^1.0.26"
+    "the-lodash": "^1.0.4",
+    "the-promise": "^1.0.30"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.235.1"
   }
 }
